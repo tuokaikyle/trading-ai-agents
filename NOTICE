@@ -5,8 +5,9 @@ This project is a simplified, educational derivative of TradingAgents
 (https://github.com/TauricResearch/TradingAgents), Copyright Tauric Research,
 licensed under the Apache License, Version 2.0.
 
-The reference copy under TradingAgents/ is included for study and is not part of
-the application runtime. It retains its original copyright, license, and notices.
+A local reference checkout may sit under TradingAgents/ for study. It is gitignored,
+is not distributed with this repository, is never imported at runtime, and retains
+its own original copyright, license, and notices.
 
 This project is not affiliated with or endorsed by Tauric Research.
 

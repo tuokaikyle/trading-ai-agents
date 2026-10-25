@@ -4,7 +4,7 @@
 
 The workflow, CLI, yfinance tools, private analyst subgraphs, bounded debate,
 validated decision, Markdown report, JSON trace, and learning walkthrough are
-implemented. All 32 offline tests pass, including the real chat client's tool
+implemented. The offline test suite passes, including the real chat client's tool
 protocol against a simulated endpoint. Live AAPL checks returned price history,
 indicators, company metrics, quarterly statements, and eight news articles using
 the yfinance search fallback.

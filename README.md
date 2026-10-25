@@ -1,8 +1,9 @@
 # Trading AI Agents
 
-A simplified version of [TradingAgents](./TradingAgents) for learning how AI agents
-work. Built with **Python 3.13+, uv, LangGraph, and yfinance**. The original is kept
-as a reference; this application runs independently from it.
+A simplified version of [TradingAgents](https://github.com/TauricResearch/TradingAgents)
+for learning how AI agents work. Built with **Python 3.13+, uv, LangGraph, and
+yfinance**. This application runs independently of the original and does not import
+it.
 
 Analyze one stock using four analyst roles, a bull/bear debate, a risk review, and
 a final decision. Every role uses the same configurable OpenAI-compatible model,
@@ -28,18 +29,27 @@ DeepSeek by default. The application produces a report; it does not place orders
 ├── tests/                     # offline tests with scripted model/data
 ├── docs/
 │   └── PLAN.md                # implementation milestones
+├── .github/workflows/ci.yml   # tests on every push and pull request
 ├── README.md
 ├── LICENSE
 ├── NOTICE
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── CODE_OF_CONDUCT.md
+├── CHANGELOG.md
 ├── pyproject.toml
 ├── uv.lock
 └── .env.example
 ```
 
-`TradingAgents/` is an ignored reference checkout, and `runs/` is generated
-output. Root-level `README.md`, `LICENSE`, and `NOTICE` are project metadata; all
-implementation code lives in `trading_ai_agents/` (root `main.py` is only the
-entry point).
+`runs/` is generated output and is not part of the repository. Root-level
+`README.md`, `LICENSE`, and `NOTICE` are project metadata; all implementation code
+lives in `trading_ai_agents/` (root `main.py` is only the entry point).
+
+A local `TradingAgents/` checkout of the [original
+project](https://github.com/TauricResearch/TradingAgents) can sit beside this code for
+side-by-side reading. It is gitignored, is not distributed here, and is never
+imported at runtime — you can delete it and everything still works.
 
 ## Setup
 
@@ -274,8 +284,9 @@ memory, backtesting, portfolio accounting, a web UI, and trade execution. See
 
 Apache License 2.0. See [LICENSE](./LICENSE) and [NOTICE](./NOTICE). This project
 is an educational derivative of [TradingAgents](https://github.com/TauricResearch/TradingAgents),
-which is also Apache-2.0. The reference copy under `TradingAgents/` retains its
-original license and notices.
+which is also Apache-2.0. The original project's copyright and license are retained
+in [NOTICE](./NOTICE); this project is not affiliated with or endorsed by Tauric
+Research.
 
 ## Development
 
