@@ -1,0 +1,14 @@
+Trading AI Agents
+Copyright 2026 The Trading AI Agents contributors
+
+This project is a simplified, educational derivative of TradingAgents
+(https://github.com/TauricResearch/TradingAgents), Copyright Tauric Research,
+licensed under the Apache License, Version 2.0.
+
+The reference copy under TradingAgents/ is included for study and is not part of
+the application runtime. It retains its original copyright, license, and notices.
+
+This project is not affiliated with or endorsed by Tauric Research.
+
+The software and generated reports are for research and education only. They are
+not financial, investment, or trading advice, and no orders are placed.

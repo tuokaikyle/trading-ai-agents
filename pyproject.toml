@@ -1,0 +1,23 @@
+[project]
+name = "trading-ai-agents"
+version = "0.1.0"
+description = "A small LangGraph and yfinance trading-agent workflow for learning"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-core>=1.7.0",
+    "langchain-openai>=1.7.2",
+    "langgraph>=1.2.16",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+    "yfinance>=1.7.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
