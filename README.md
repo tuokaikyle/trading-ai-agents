@@ -7,7 +7,12 @@ it.
 
 Analyze one stock using four analyst roles, a bull/bear debate, a risk review, and
 a final decision. Every role uses the same configurable OpenAI-compatible model,
-DeepSeek by default. The application produces a report; it does not place orders.
+DeepSeek by default.
+
+> **Not investment advice.** Every report is research and educational output:
+> generated text validated only for JSON format, not for accuracy or correctness.
+> Nothing here is financial, investment, or trading advice, and no orders are
+> placed. Do not make investment decisions based on generated output.
 
 ## Project layout
 
